@@ -1,1 +1,15 @@
 /* your code */
+
+table{
+	width:100%;
+	 border-collapse: collapse;
+	border-radius:round;
+	text-align:center;
+}
+thead tr{
+	background-color:blue;
+	color:white;
+}
+tbody tr:nth-of-type(2n){
+	background-color:lightgray;
+}
